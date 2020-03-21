@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/good_night_img"
+    tools:context=".masuk">
+
+    <TextView
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="LOGIN "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:fontFamily="@font/futuraheavy"
+        android:textSize="30sp"
+        android:textColor="#fff"/>
+
+
+            <EditText
+                android:layout_marginTop="400dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Masukkan Email"
+                android:textColorHint="#fff"
+                android:textColor="#fff"
+                android:id="@+id/login_email"/>
+            <EditText
+                android:layout_marginTop="450dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Masukkan Password"
+                android:textColorHint="#fff"
+                android:textColor="#fff"
+                android:inputType="textPassword"
+                android:id="@+id/login_password"/>
+
+            <Button
+                android:layout_marginTop="590dp"
+                android:layout_marginLeft="160dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:onClick="login"
+                android:background="@drawable/login"
+                android:id="@+id/login_save"/>
+
+
+                <TextView
+                    android:layout_marginTop="650dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Belum punya akun? "
+                    android:textSize="20dp"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="650dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Daftar dulu"
+                    android:textSize="20dp"
+                    android:id="@+id/keRegistrasi"
+                    android:textColor="@color/colorAccent"/>
+
+</RelativeLayout>
